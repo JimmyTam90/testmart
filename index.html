@@ -15,7 +15,8 @@
   body{overflow-x:hidden;padding-bottom:76px}
   @media(min-width:768px){body{padding-bottom:0}}
   .faq-panel{max-height:0;overflow:hidden;transition:max-height .3s ease}
-  section[id]{scroll-margin-top:72px}
+  section[id],div[id]{scroll-margin-top:72px}
+  h1,h2,h3,p,a,li{overflow-wrap:break-word}
 </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
@@ -24,13 +25,14 @@
 <header class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur border-b border-slate-800">
   <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
     <a href="#top" class="text-lg font-extrabold tracking-tight text-white">Prime<span class="text-orange-500">GearLab</span></a>
-    <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300">
+    <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300" aria-label="Main">
       <a href="#picks" class="hover:text-white">Top Picks</a>
+      <a href="#use-cases" class="hover:text-white">Use Cases</a>
       <a href="#choose" class="hover:text-white">How to Choose</a>
       <a href="#faq" class="hover:text-white">FAQ</a>
     </nav>
     <a href="https://www.tesmart.com/collections/8k-dp-1-4-kvm-edid?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="header_collection"
-       class="cta rounded-lg bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-4 py-2">View KVMs</a>
+       class="cta rounded-lg bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-4 py-2">See Models</a>
   </div>
 </header>
 
@@ -41,19 +43,27 @@
   <div class="max-w-6xl mx-auto px-4 py-12 md:py-20 grid md:grid-cols-2 gap-10 items-center">
     <div>
       <p class="text-orange-400 text-xs font-semibold uppercase tracking-widest mb-3">Independent KVM Buying Guide</p>
-      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">One Keyboard, Mouse and Multi-Monitor Desk. Zero Cable Swapping.</h1>
-      <p class="mt-4 text-slate-300 text-base md:text-lg">Compare TESmart KVM switches built for dual and triple monitor setups, with 8K60 / 4K144 support and EDID emulation.</p>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">One Desk, Multiple Computers, Zero Cable Swapping</h1>
+      <p class="mt-4 text-slate-300 text-base md:text-lg">Compare TESmart KVM switches for dual and triple monitor setups, with 8K60 / 4K144 support and EDID emulation.</p>
       <div class="mt-7 flex flex-col sm:flex-row gap-3">
         <a href="https://www.tesmart.com/products/dks202-m24?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="hero_primary_dks202_m24"
-           class="cta text-center rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3.5">Check Price</a>
+           class="cta text-center rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3.5">Check Today's Price</a>
         <a href="#picks" class="text-center rounded-xl border border-slate-600 hover:border-slate-400 text-white font-semibold px-6 py-3.5">Compare Models</a>
       </div>
-      <p class="mt-4 text-xs text-slate-400">PrimeGearLab is an independent affiliate publisher, not the official TESmart store. We may earn a commission at no extra cost to you.</p>
+      <p class="mt-4 text-xs text-slate-400">PrimeGearLab is an independent affiliate publisher, not the official TESmart website. We may receive a commission if you make a purchase through links on this page at no extra cost to you.</p>
     </div>
     <div class="bg-white rounded-2xl p-4 shadow-xl">
       <img src="https://www.tesmart.com/cdn/shop/files/tesmart-dks202-m24-usbk-dual-monitor-kvm-switcher-dp-1-4-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-w-edid-g-sync-freesync-10652805090624-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-dp-1-4-w-edid-g-sync-42557406740692.jpg?v=1736470723&width=1600"
            alt="TESmart DKS202-M24 dual monitor DisplayPort 1.4 KVM switch for 2 PCs and 2 monitors" class="w-full h-auto max-w-full rounded-lg" width="800" height="800" fetchpriority="high">
     </div>
+  </div>
+</section>
+
+<!-- Advertiser vs promoted brand -->
+<section class="bg-orange-50 border-b border-orange-100">
+  <div class="max-w-6xl mx-auto px-4 py-4 text-sm text-slate-700 grid sm:grid-cols-2 gap-2 text-center sm:text-left">
+    <p><strong>Published by:</strong> PrimeGearLab (independent affiliate publisher)</p>
+    <p><strong>Promoted brand &amp; seller:</strong> TESmart (purchases are completed on tesmart.com)</p>
   </div>
 </section>
 
@@ -76,26 +86,4 @@
     </div>
     <div class="bg-white rounded-xl p-5 border border-slate-200">
       <h3 class="font-bold">Mac &amp; PC Friendly</h3>
-      <p class="text-sm text-slate-600 mt-1">Includes Thunderbolt 4 compatible models for Mac and laptop setups.</p>
-    </div>
-  </div>
-</section>
-
-<!-- Products -->
-<section id="picks" class="bg-white border-y border-slate-200">
-  <div class="max-w-6xl mx-auto px-4 py-12">
-    <h2 class="text-2xl md:text-3xl font-bold text-center">Top TESmart KVM Picks by Setup</h2>
-    <p class="text-center text-slate-600 mt-2">Prices were listed on TESmart's website when this page was written and may change. Check the merchant for current pricing.</p>
-    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-      <article class="flex flex-col bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden">
-        <img loading="lazy" src="https://www.tesmart.com/cdn/shop/files/tesmart-dks202-m24-usbk-dual-monitor-kvm-switcher-dp-1-4-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-w-edid-g-sync-freesync-10652805090624-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-dp-1-4-w-edid-g-sync-42557406740692.jpg?v=1736470723&width=1600" alt="TESmart DKS202-M24 2x2 DisplayPort 1.4 KVM switch" class="w-full h-52 object-contain bg-white p-3">
-        <div class="p-5 flex flex-col flex-1">
-          <p class="text-xs font-semibold text-orange-600 uppercase">2 PCs · 2 Monitors</p>
-          <h3 class="font-bold mt-1">2×2 DP 1.4 KVM | Dual 8K60/4K144, EDID &amp; G-Sync</h3>
-          <ul class="text-sm text-slate-600 mt-3 space-y-1 list-disc list-inside">
-            <li>8K60 / 4K144 max output</li>
-            <li>EDID emulation, HDR</li>
-            <li>VRR / G-Sync / FreeSync</li>
-          </ul>
-          <p class="mt-4 text-xl
+      <p class="text-sm
