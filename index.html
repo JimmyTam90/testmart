@@ -3,87 +3,394 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Multi-Monitor KVM Switches: 8K60 / 4K144 with EDID | PrimeGearLab</title>
-<meta name="description" content="Compare TESmart KVM switches for dual and triple monitor setups: 8K60/4K144, EDID emulation, G-Sync/FreeSync support. Independent buying guide by PrimeGearLab.">
-<meta property="og:title" content="Multi-Monitor KVM Switches: 8K60 / 4K144 with EDID | PrimeGearLab">
-<meta property="og:description" content="Find the right TESmart KVM switch for your computers and monitors. Independent affiliate buying guide.">
+<title>Dual &amp; Triple Monitor KVM Switches (8K60/4K144) | PrimeGearLab</title>
+<meta name="description" content="Compare TESmart KVM switches for 2, 3 or 4 computers and multiple monitors. Find your setup, see specs and listed prices. Independent guide by PrimeGearLab.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0f172a">
 <meta property="og:type" content="website">
+<meta property="og:title" content="Dual &amp; Triple Monitor KVM Switches (8K60/4K144) | PrimeGearLab">
+<meta property="og:description" content="Find the right TESmart KVM switch for your computers and monitors. Independent affiliate buying guide.">
 <meta property="og:image" content="https://www.tesmart.com/cdn/shop/files/tesmart-dks202-m24-usbk-dual-monitor-kvm-switcher-dp-1-4-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-w-edid-g-sync-freesync-10652805090624-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-dp-1-4-w-edid-g-sync-42557406740692.jpg?v=1736470723&width=1600">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dual &amp; Triple Monitor KVM Switches | PrimeGearLab">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23f97316'/%3E%3Ctext x='16' y='22' font-size='15' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3EPG%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://www.tesmart.com" crossorigin>
+<link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
   html{scroll-behavior:smooth}
   body{overflow-x:hidden;padding-bottom:76px}
   @media(min-width:768px){body{padding-bottom:0}}
   .faq-panel{max-height:0;overflow:hidden;transition:max-height .3s ease}
-  section[id],div[id]{scroll-margin-top:72px}
-  h1,h2,h3,p,a,li{overflow-wrap:break-word}
+  [id]{scroll-margin-top:72px}
+  h1,h2,h3,p,a,li,td,th{overflow-wrap:break-word}
+  .hero-bg{background:radial-gradient(circle at 80% 0%,rgba(249,115,22,.22),transparent 45%),#0f172a}
+  .card{transition:box-shadow .2s,transform .2s}
+  .card:hover{box-shadow:0 10px 25px rgba(15,23,42,.1);transform:translateY(-2px)}
+  .opt.active{background:#f97316;color:#fff;border-color:#f97316}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
 
-<!-- Header -->
+<!-- HEADER -->
 <header class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur border-b border-slate-800">
-  <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-    <a href="#top" class="text-lg font-extrabold tracking-tight text-white">Prime<span class="text-orange-500">GearLab</span></a>
-    <nav class="hidden md:flex items-center gap-6 text-sm text-slate-300" aria-label="Main">
+  <div class="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between gap-3">
+    <a href="#top" class="flex items-center gap-2 text-white font-extrabold tracking-tight" aria-label="PrimeGearLab home">
+      <span class="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center text-sm">PG</span>
+      <span>Prime<span class="text-orange-500">GearLab</span></span>
+    </a>
+    <nav class="hidden md:flex items-center gap-5 text-sm text-slate-300" aria-label="Main">
+      <a href="#finder" class="hover:text-white">Find Your Setup</a>
       <a href="#picks" class="hover:text-white">Top Picks</a>
-      <a href="#use-cases" class="hover:text-white">Use Cases</a>
-      <a href="#choose" class="hover:text-white">How to Choose</a>
+      <a href="#compare" class="hover:text-white">Compare</a>
       <a href="#faq" class="hover:text-white">FAQ</a>
     </nav>
-    <a href="https://www.tesmart.com/collections/8k-dp-1-4-kvm-edid?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="header_collection"
-       class="cta rounded-lg bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-4 py-2">See Models</a>
+    <div class="flex items-center gap-2">
+      <a href="https://www.tesmart.com/collections/8k-dp-1-4-kvm-edid?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="header_collection" class="cta rounded-lg bg-orange-500 hover:bg-orange-600 text-white text-sm font-semibold px-3 py-2">See Models</a>
+      <button id="menuBtn" type="button" class="md:hidden text-white p-2" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
   </div>
+  <nav id="mobileNav" class="hidden md:hidden bg-slate-900 border-t border-slate-800 px-4 py-3 text-slate-200 text-sm space-y-3" aria-label="Mobile">
+    <a href="#finder" class="block">Find Your Setup</a><a href="#picks" class="block">Top Picks</a><a href="#compare" class="block">Compare Models</a><a href="#faq" class="block">FAQ</a><a href="#contact" class="block">Contact</a>
+  </nav>
 </header>
 
 <main id="top">
 
-<!-- Hero -->
-<section class="bg-slate-900 text-white">
+<!-- HERO -->
+<section class="hero-bg text-white">
   <div class="max-w-6xl mx-auto px-4 py-12 md:py-20 grid md:grid-cols-2 gap-10 items-center">
     <div>
-      <p class="text-orange-400 text-xs font-semibold uppercase tracking-widest mb-3">Independent KVM Buying Guide</p>
-      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">One Desk, Multiple Computers, Zero Cable Swapping</h1>
-      <p class="mt-4 text-slate-300 text-base md:text-lg">Compare TESmart KVM switches for dual and triple monitor setups, with 8K60 / 4K144 support and EDID emulation.</p>
+      <p class="inline-block text-orange-300 bg-white/10 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-widest mb-4">Independent KVM Buying Guide</p>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">Share One Multi-Monitor Desk Across Multiple Computers</h1>
+      <p class="mt-4 text-slate-300 text-base md:text-lg">Compare TESmart KVM switches with up to 8K60 / 4K144 output and EDID emulation. Pick by how many computers and monitors you use.</p>
       <div class="mt-7 flex flex-col sm:flex-row gap-3">
-        <a href="https://www.tesmart.com/products/dks202-m24?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="hero_primary_dks202_m24"
-           class="cta text-center rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3.5">Check Today's Price</a>
-        <a href="#picks" class="text-center rounded-xl border border-slate-600 hover:border-slate-400 text-white font-semibold px-6 py-3.5">Compare Models</a>
+        <a href="https://www.tesmart.com/products/dks202-m24?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="hero_primary_dks202_m24" class="cta text-center rounded-xl bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3.5">Check Today's Price</a>
+        <a href="#finder" class="text-center rounded-xl border border-slate-500 hover:border-white text-white font-semibold px-6 py-3.5">Find My Setup</a>
       </div>
-      <p class="mt-4 text-xs text-slate-400">PrimeGearLab is an independent affiliate publisher, not the official TESmart website. We may receive a commission if you make a purchase through links on this page at no extra cost to you.</p>
+      <ul class="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-300">
+        <li>✔ Independent publisher</li><li>✔ Affiliate relationship disclosed</li><li>✔ Purchase completed on tesmart.com</li>
+      </ul>
     </div>
-    <div class="bg-white rounded-2xl p-4 shadow-xl">
-      <img src="https://www.tesmart.com/cdn/shop/files/tesmart-dks202-m24-usbk-dual-monitor-kvm-switcher-dp-1-4-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-w-edid-g-sync-freesync-10652805090624-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-dp-1-4-w-edid-g-sync-42557406740692.jpg?v=1736470723&width=1600"
-           alt="TESmart DKS202-M24 dual monitor DisplayPort 1.4 KVM switch for 2 PCs and 2 monitors" class="w-full h-auto max-w-full rounded-lg" width="800" height="800" fetchpriority="high">
+    <div class="bg-white rounded-2xl p-4 shadow-2xl">
+      <img src="https://www.tesmart.com/cdn/shop/files/tesmart-dks202-m24-usbk-dual-monitor-kvm-switcher-dp-1-4-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-w-edid-g-sync-freesync-10652805090624-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-dp-1-4-w-edid-g-sync-42557406740692.jpg?v=1736470723&width=1600" alt="TESmart DKS202-M24 dual monitor DisplayPort 1.4 KVM switch for 2 PCs and 2 monitors" class="w-full h-auto max-w-full rounded-lg" width="800" height="800" fetchpriority="high">
+      <p class="text-center text-xs text-slate-500 mt-2">Featured: 2×2 DP 1.4 KVM · listed at $329.90</p>
     </div>
   </div>
 </section>
 
-<!-- Advertiser vs promoted brand -->
+<!-- IDENTITY STRIP -->
 <section class="bg-orange-50 border-b border-orange-100">
-  <div class="max-w-6xl mx-auto px-4 py-4 text-sm text-slate-700 grid sm:grid-cols-2 gap-2 text-center sm:text-left">
-    <p><strong>Published by:</strong> PrimeGearLab (independent affiliate publisher)</p>
-    <p><strong>Promoted brand &amp; seller:</strong> TESmart (purchases are completed on tesmart.com)</p>
+  <div class="max-w-6xl mx-auto px-4 py-3 text-sm text-slate-700 grid sm:grid-cols-3 gap-2 text-center">
+    <p><strong>Published by:</strong> PrimeGearLab</p>
+    <p><strong>Promoted brand &amp; seller:</strong> TESmart</p>
+    <p><strong>Info &amp; prices last checked:</strong> Oct 5, 2026</p>
   </div>
 </section>
 
-<!-- Benefits -->
+<!-- PROBLEM -> SOLUTION -->
 <section class="max-w-6xl mx-auto px-4 py-12">
-  <h2 class="text-2xl md:text-3xl font-bold text-center">Why a Proper KVM Beats a Basic Switch</h2>
-  <p class="text-center text-slate-600 mt-2 max-w-2xl mx-auto">Complex desks need more than a cheap HDMI box. These are the features that matter most.</p>
+  <h2 class="text-2xl md:text-3xl font-bold text-center">Why Complex Desks Need a Proper KVM</h2>
+  <p class="text-center text-slate-600 mt-2 max-w-2xl mx-auto">TESmart describes its KVMs as built for multi-monitor, high-refresh, Mac, PC and hybrid workstations, especially where basic switches fall short.</p>
+  <div class="mt-8 grid md:grid-cols-3 gap-5">
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><p class="text-xs font-bold text-red-500 uppercase">The problem</p><h3 class="font-bold mt-1">Cable swapping &amp; duplicate gear</h3><p class="text-sm text-slate-600 mt-1">Multiple computers often means multiple keyboards, mice and monitors, or constant re-plugging.</p></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><p class="text-xs font-bold text-red-500 uppercase">The problem</p><h3 class="font-bold mt-1">Demanding displays</h3><p class="text-sm text-slate-600 mt-1">High resolution, high refresh rate and several monitors need a switch that supports your ports and specs.</p></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><p class="text-xs font-bold text-emerald-600 uppercase">The solution</p><h3 class="font-bold mt-1">One shared desk</h3><p class="text-sm text-slate-600 mt-1">A KVM lets several computers share one keyboard, mouse and display group, with EDID emulation on listed models.</p></div>
+  </div>
+</section>
+
+<!-- FINDER -->
+<section id="finder" class="bg-slate-900 text-white">
+  <div class="max-w-3xl mx-auto px-4 py-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-center">Find Your Setup in 10 Seconds</h2>
+    <p class="text-center text-slate-400 text-sm mt-2">Choose your layout. We'll show the matching model from this page.</p>
+    <div class="mt-6 grid sm:grid-cols-3 gap-4 text-sm">
+      <div><p class="font-semibold mb-2">Computers</p><div class="flex gap-2" data-group="pcs"><button type="button" class="opt flex-1 border border-slate-600 rounded-lg py-2" data-v="2">2</button><button type="button" class="opt flex-1 border border-slate-600 rounded-lg py-2" data-v="4">4</button></div></div>
+      <div><p class="font-semibold mb-2">Monitors</p><div class="flex gap-2" data-group="mon"><button type="button" class="opt flex-1 border border-slate-600 rounded-lg py-2" data-v="1">1</button><button type="button" class="opt flex-1 border border-slate-600 rounded-lg py-2" data-v="2">2</button><button type="button" class="opt flex-1 border border-slate-600 rounded-lg py-2" data-v="3">3</button></div></div>
+      <div><p class="font-semibold mb-2">Using Thunderbolt Mac?</p><div class="flex gap-2" data-group="tb"><button type="button" class="opt flex-1 border border-slate-600 rounded-lg py-2" data-v="no">No</button><button type="button" class="opt flex-1 border border-slate-600 rounded-lg py-2" data-v="yes">Yes</button></div></div>
+    </div>
+    <div id="finderResult" class="mt-6 rounded-xl bg-slate-800 p-5 text-sm text-slate-300" aria-live="polite">Select your options above to see a match.</div>
+  </div>
+</section>
+
+<!-- PICKS (rendered from data) -->
+<section id="picks" class="bg-white border-y border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-center">Top TESmart KVM Picks by Setup</h2>
+    <p class="text-center text-slate-600 mt-2">Prices were listed on tesmart.com on Oct 5, 2026 and may change. Confirm on the merchant's product page.</p>
+    <div id="cards" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    <div class="text-center mt-8">
+      <a href="https://www.tesmart.com/collections/8k-dp-1-4-kvm-edid?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="picks_collection" class="cta inline-block rounded-xl border-2 border-orange-500 text-orange-600 hover:bg-orange-500 hover:text-white font-bold px-6 py-3">Explore the DP 1.4 / 8K Collection</a>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section id="compare" class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="text-2xl md:text-3xl font-bold text-center">Side-by-Side Comparison</h2>
+  <p class="text-center text-slate-600 mt-2 text-sm">Specs as listed by TESmart. Swipe sideways on small screens.</p>
+  <div class="mt-6 overflow-x-auto rounded-xl border border-slate-200 bg-white">
+    <table class="min-w-[760px] w-full text-sm text-left">
+      <thead class="bg-slate-100 text-slate-700"><tr><th class="p-3">Model</th><th class="p-3">Setup</th><th class="p-3">Max output</th><th class="p-3">Highlights</th><th class="p-3">Listed price</th><th class="p-3"><span class="sr-only">Link</span></th></tr></thead>
+      <tbody id="tbody" class="divide-y divide-slate-100"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- FEATURES -> BENEFITS -->
+<section class="bg-white border-y border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-center">What the Features Mean for You</h2>
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="card rounded-xl border border-slate-200 p-5"><h3 class="font-bold">EDID Emulation</h3><p class="text-sm text-slate-600 mt-1">Shares monitor information with each computer, aimed at steadier display setups when you switch.</p></div>
+      <div class="card rounded-xl border border-slate-200 p-5"><h3 class="font-bold">8K60 / 4K144 Output</h3><p class="text-sm text-slate-600 mt-1">Headroom for high-resolution or high-refresh monitors on listed models.</p></div>
+      <div class="card rounded-xl border border-slate-200 p-5"><h3 class="font-bold">HDR &amp; VRR (G-Sync / FreeSync)</h3><p class="text-sm text-slate-600 mt-1">Keeps gaming and color features available on models that list them.</p></div>
+      <div class="card rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Gigabit Ethernet &amp; USB 3.2 Gen 1</h3><p class="text-sm text-slate-600 mt-1">Shared wired network and 5Gbps USB ports on selected models, so fewer cables per computer.</p></div>
+      <div class="card rounded-xl border border-slate-200 p-5"><h3 class="font-bold">USB + Audio Focus Lock</h3><p class="text-sm text-slate-600 mt-1">Listed on 4-computer models for more control over which computer receives USB and audio.</p></div>
+      <div class="card rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Thunderbolt 4 Compatible</h3><p class="text-sm text-slate-600 mt-1">The TKS202-X4 targets Apple Studio Display and Thunderbolt laptops, with 2 × 60W laptop charging listed.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section id="use-cases" class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="text-2xl md:text-3xl font-bold text-center">Who Is a KVM Switch For?</h2>
   <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-    <div class="bg-white rounded-xl p-5 border border-slate-200">
-      <h3 class="font-bold">High Resolution &amp; Refresh</h3>
-      <p class="text-sm text-slate-600 mt-1">Selected models list up to 8K60 or 4K144 output per the manufacturer.</p>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Gamers &amp; Streamers</h3><p class="text-sm text-slate-600 mt-1">Share displays between a gaming PC and a work or streaming PC.</p></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Remote Workers</h3><p class="text-sm text-slate-600 mt-1">Move between a work laptop and a personal computer without re-plugging.</p></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Creators &amp; Editors</h3><p class="text-sm text-slate-600 mt-1">Control several workstations from one keyboard, mouse and monitor group.</p></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">IT Pros &amp; Multi-PC Desks</h3><p class="text-sm text-slate-600 mt-1">Manage up to four computers with shared USB and network on selected models.</p></div>
+  </div>
+</section>
+
+<!-- WHY TESMART (merchant-stated) -->
+<section class="bg-slate-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-center">About the Brand: TESmart</h2>
+    <p class="text-center text-slate-400 text-sm mt-2">Merchant-stated information from tesmart.com. Not independently verified by PrimeGearLab.</p>
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="rounded-xl bg-slate-800 p-5"><h3 class="font-bold text-orange-400">KVM maker since 2004</h3><p class="text-sm text-slate-300 mt-1">TESmart describes itself as a premium KVM brand since 2004.</p></div>
+      <div class="rounded-xl bg-slate-800 p-5"><h3 class="font-bold text-orange-400">50+ models</h3><p class="text-sm text-slate-300 mt-1">Its KVM selection center lists 50+ models plus a guided finder.</p></div>
+      <div class="rounded-xl bg-slate-800 p-5"><h3 class="font-bold text-orange-400">Mac &amp; PC expertise</h3><p class="text-sm text-slate-300 mt-1">Designs for mixed setups involving Thunderbolt, DisplayLink, MST, DP 1.4 and HDMI 2.1.</p></div>
+      <div class="rounded-xl bg-slate-800 p-5"><h3 class="font-bold text-orange-400">Support &amp; firmware</h3><p class="text-sm text-slate-300 mt-1">Setup assistance, manuals, firmware updates and direct technical service are listed.</p></div>
     </div>
-    <div class="bg-white rounded-xl p-5 border border-slate-200">
-      <h3 class="font-bold">EDID Emulation</h3>
-      <p class="text-sm text-slate-600 mt-1">Designed to keep display settings stable when you switch between computers.</p>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="text-2xl md:text-3xl font-bold text-center">Buying Direct from TESmart</h2>
+  <p class="text-center text-slate-600 text-sm mt-2">Merchant-stated terms. Eligibility and conditions are set by TESmart; read the policies before you order.</p>
+  <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Free US Shipping</h3><p class="text-sm text-slate-600 mt-1">Listed as 3–5 business days.</p><a class="text-xs text-orange-600 underline mt-2 inline-block" href="https://www.tesmart.com/pages/shipping-policy" target="_blank" rel="noopener noreferrer nofollow">Shipping policy</a></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">30-Day Returns</h3><p class="text-sm text-slate-600 mt-1">Described as hassle-free returns.</p><a class="text-xs text-orange-600 underline mt-2 inline-block" href="https://www.tesmart.com/pages/refund-policy" target="_blank" rel="noopener noreferrer nofollow">Refund policy</a></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Warranty: 1+4 Years</h3><p class="text-sm text-slate-600 mt-1">Extra 4 years when you register with TESmart.</p><a class="text-xs text-orange-600 underline mt-2 inline-block" href="https://www.tesmart.com/pages/membership" target="_blank" rel="noopener noreferrer nofollow">Membership details</a></div>
+    <div class="card bg-white rounded-xl border border-slate-200 p-5"><h3 class="font-bold">Trade-In Credit</h3><p class="text-sm text-slate-600 mt-1">Up to 50% credit on eligible trade-ins, per TESmart.</p></div>
+  </div>
+</section>
+
+<!-- OBJECTIONS -->
+<section class="bg-white border-y border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-center">Common Concerns Before You Buy</h2>
+    <div class="mt-8 grid md:grid-cols-3 gap-5">
+      <div class="rounded-xl bg-slate-50 border border-slate-200 p-5"><h3 class="font-bold">"Will it work with my gear?"</h3><p class="text-sm text-slate-600 mt-1">Check your ports and target resolution. TESmart says its team can help verify compatibility if you send your computer and monitor models.</p></div>
+      <div class="rounded-xl bg-slate-50 border border-slate-200 p-5"><h3 class="font-bold">"Is this the real store?"</h3><p class="text-sm text-slate-600 mt-1">Our buttons open tesmart.com, where TESmart sells and ships. PrimeGearLab does not sell products or take payments.</p></div>
+      <div class="rounded-xl bg-slate-50 border border-slate-200 p-5"><h3 class="font-bold">"Is the price current?"</h3><p class="text-sm text-slate-600 mt-1">Prices here are snapshots from Oct 5, 2026. The merchant's product page always shows the current price.</p></div>
     </div>
-    <div class="bg-white rounded-xl p-5 border border-slate-200">
-      <h3 class="font-bold">Multi-Monitor Ready</h3>
-      <p class="text-sm text-slate-600 mt-1">Options for 1, 2 or 3 monitors shared across 2 or 4 computers.</p>
+  </div>
+</section>
+
+<!-- HOW WE WORK -->
+<section class="max-w-3xl mx-auto px-4 py-12">
+  <h2 class="text-2xl md:text-3xl font-bold text-center">How PrimeGearLab Works</h2>
+  <ul class="mt-6 space-y-3 text-sm text-slate-700 list-disc list-inside">
+    <li>We are an independent affiliate publisher and may earn a commission from qualifying purchases at no extra cost to you.</li>
+    <li>Product details and prices come from TESmart's public website. We have not hands-on tested these products.</li>
+    <li>We are not TESmart, an official TESmart store or an authorized dealer.</li>
+    <li>Questions? Email <a class="text-orange-600 underline" href="mailto:daniaengracia26377@gmail.com">daniaengracia26377@gmail.com</a>.</li>
+  </ul>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="bg-white border-y border-slate-200">
+  <div class="max-w-3xl mx-auto px-4 py-12">
+    <h2 class="text-2xl md:text-3xl font-bold text-center">Frequently Asked Questions</h2>
+    <div id="faqList" class="mt-8 space-y-3"></div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="bg-orange-500">
+  <div class="max-w-3xl mx-auto px-4 py-12 text-center text-white">
+    <h2 class="text-2xl md:text-3xl font-extrabold">Ready to Simplify Your Desk?</h2>
+    <p class="mt-2 text-orange-50">See current pricing and full specs on TESmart's website.</p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+      <a href="https://www.tesmart.com/products/dks202-m24?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="final_dks202_m24" class="cta rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold px-8 py-3.5">Shop on TESmart.com</a>
+      <a href="https://www.tesmart.com/pages/explore-our-kvm-switch-lineup?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="final_lineup" class="cta rounded-xl bg-white/15 hover:bg-white/25 text-white font-semibold px-8 py-3.5">View Available Options</a>
     </div>
-    <div class="bg-white rounded-xl p-5 border border-slate-200">
-      <h3 class="font-bold">Mac &amp; PC Friendly</h3>
-      <p class="text-sm
+  </div>
+</section>
+
+<!-- LEGAL -->
+<section id="legal" class="max-w-3xl mx-auto px-4 py-12 space-y-10 text-sm text-slate-700">
+  <div id="affiliate-disclosure"><h2 class="text-xl font-bold text-slate-900">Affiliate Disclosure</h2>
+    <p class="mt-2">We may receive a commission if you make a purchase through links on this page at no extra cost to you. Links to TESmart products and pages are affiliate links. PrimeGearLab is an independent affiliate publisher. It is not owned by, operated by, or an official representative of TESmart, and does not claim to be an authorized dealer.</p></div>
+  <div id="privacy"><h2 class="text-xl font-bold text-slate-900">Privacy Policy</h2>
+    <p class="mt-2"><strong>Last updated:</strong> October 2026. PrimeGearLab operates this page. Contact: <a class="text-orange-600 underline" href="mailto:daniaengracia26377@gmail.com">daniaengracia26377@gmail.com</a>.</p>
+    <p class="mt-2"><strong>Information we collect.</strong> This page has no sign-up or contact form. If you email us, we receive your email address and message and use them only to reply. This page does not currently run analytics, advertising pixels or its own tracking cookies. If we add them, we will update this policy first.</p>
+    <p class="mt-2"><strong>Hosting and third parties.</strong> Our hosting provider may process technical data such as IP address and browser type in server logs. This page loads code from content delivery networks (Tailwind CSS), which may receive your IP address and fetches product images from tesmart.com.</p>
+    <p class="mt-2"><strong>Affiliate links.</strong> When you click a link to tesmart.com you leave this page. TESmart and its affiliate tracking provider may set cookies or use URL parameters to credit a referral to us, and handle your data under their own privacy policy.</p>
+    <p class="mt-2"><strong>Your choices.</strong> You can block or delete cookies in your browser. To ask about data we hold about you, email us.</p></div>
+  <div id="terms"><h2 class="text-xl font-bold text-slate-900">Terms of Service</h2>
+    <p class="mt-2"><strong>Last updated:</strong> October 2026. PrimeGearLab publishes product information and affiliate links. We are not the merchant, manufacturer or an official retailer. Products are sold and supported by third-party merchants, and you are redirected to their websites to buy.</p>
+    <p class="mt-2">Prices, specifications, promotions, shipping, return and warranty terms are set by the merchant and may change without notice. Confirm details with the merchant before purchasing. This page is provided "as is"; to the extent permitted by law, PrimeGearLab is not liable for losses arising from use of this page or purchases on third-party sites. TESmart and related names are trademarks of their owners, used only to identify products discussed. We may update these terms by posting a revised version here.</p></div>
+  <div id="contact"><h2 class="text-xl font-bold text-slate-900">Contact</h2>
+    <p class="mt-2">Email <a class="text-orange-600 underline" href="mailto:daniaengracia26377@gmail.com">daniaengracia26377@gmail.com</a>. For orders, shipping, returns or product support, contact TESmart directly through tesmart.com.</p></div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer id="footer" class="bg-slate-900 text-slate-400">
+  <div class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row md:justify-between gap-6">
+      <div class="max-w-md">
+        <p class="text-lg font-extrabold text-white">Prime<span class="text-orange-500">GearLab</span></p>
+        <p class="text-xs mt-2">PrimeGearLab is an independent affiliate publisher and is not the official TESmart website. Product names and trademarks belong to their owners. We may receive a commission if you make a purchase through links on this page at no extra cost to you.</p>
+      </div>
+      <nav class="text-sm flex flex-wrap gap-x-6 gap-y-2 content-start" aria-label="Footer">
+        <a href="#contact" class="hover:text-white">Contact</a>
+        <a href="#privacy" class="hover:text-white">Privacy Policy</a>
+        <a href="#terms" class="hover:text-white">Terms of Service</a>
+        <a href="#affiliate-disclosure" class="hover:text-white">Affiliate Disclosure</a>
+        <a href="mailto:daniaengracia26377@gmail.com" class="hover:text-white">Contact: daniaengracia26377@gmail.com</a>
+      </nav>
+    </div>
+    <p class="text-xs mt-8 border-t border-slate-800 pt-4">© 2026 PrimeGearLab. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- STICKY CTA -->
+<div id="sticky" class="md:hidden fixed bottom-0 inset-x-0 z-50 bg-white border-t border-slate-200 px-4 pt-3 transition-transform" style="padding-bottom:max(.75rem,env(safe-area-inset-bottom))">
+  <a href="https://www.tesmart.com/products/dks202-m24?sca_ref=12307285.WARifzWogo" target="_blank" rel="noopener noreferrer sponsored" data-cta="sticky_dks202_m24" class="cta block w-full text-center rounded-xl bg-orange-500 active:bg-orange-600 text-white font-bold py-3">Check Today's Price</a>
+</div>
+
+<script>
+/* ===== CONFIG (leave empty = NOT CONFIGURED; nothing is loaded). If you fill an ID, update the Privacy Policy. ===== */
+var CONFIG = { GA4_ID:'', GOOGLE_ADS_ID:'', META_PIXEL_ID:'', FORWARD_UTM:false };
+var AFF = '?sca_ref=12307285.WARifzWogo';
+var BASE = 'https://www.tesmart.com/products/';
+var IMG = 'https://www.tesmart.com/cdn/shop/files/';
+
+/* ===== PRODUCT DATA (specs/prices as listed on tesmart.com, Oct 5 2026) ===== */
+var P = [
+ {id:'dks202-m24',n:'2×2 DP 1.4 KVM | Dual 8K60/4K144, EDID & G-Sync',pcs:2,mon:2,out:'8K60 / 4K144',price:'$329.90',cta:'View This Model',alt:'TESmart DKS202-M24 2x2 DisplayPort 1.4 KVM switch',
+  img:'tesmart-dks202-m24-usbk-dual-monitor-kvm-switcher-dp-1-4-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-w-edid-g-sync-freesync-10652805090624-dual-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-2-monitors-dp-1-4-w-edid-g-sync-42557406740692.jpg?v=1736470723&width=1600',
+  f:['EDID emulation, HDR','VRR / G-Sync / FreeSync','Gigabit LAN on/off']},
+ {id:'dks203-m24',n:'2×3 DP 1.4 KVM | Triple 8K60/4K144, EDID & G-Sync',pcs:2,mon:3,out:'8K60 / 4K144',price:'$429.90',cta:'Check Product Details',alt:'TESmart DKS203-M24 2x3 DisplayPort 1.4 triple monitor KVM switch',
+  img:'tesmart-dks203-m24-usbk-triple-monitor-kvm-switch-dp-1-4-triple-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-3-monitors-w-edid-g-sync-freesync-10652805090648-dp-1-4-triple-8k-60hz-kvm-switch-gaming-dock-for-2-pcs-3-monitors-w-edid-g-42557502423252.jpg?v=1757569673&width=1600',
+  f:['EDID emulation, HDR','VRR / G-Sync / FreeSync','Gigabit Ethernet sharing']},
+ {id:'dks402-m24',n:'4×2 DP 1.4 KVM | Dual 8K60/4K144, Network Hub & EDID',pcs:4,mon:2,out:'8K60 / 4K144',price:'$469.00',cta:'Explore This Product',alt:'TESmart DKS402-M24 4x2 DisplayPort 1.4 KVM switch with network hub',
+  img:'tesmart-dks402-m24-usbk-dp-1-4-dual-8k-60hz-kvm-switch-with-network-hub-smart-edid-for-it-pros-creators-multi-pc-setups-dp-1-4-dual-8k-60hz-kvm-switch-with-network-hub-smart-edid-for-it-pros-creators-multi-pc-setups-1215200507.jpg?v=1767775988&width=1500',
+  f:['EDID emulation','Auto-sensing Gigabit LAN','USB 3.2 Gen 1, USB + audio focus lock']},
+ {id:'dks403-m24',n:'4×3 DP 1.4 KVM | Triple 8K60/4K144, Network Hub & EDID',pcs:4,mon:3,out:'8K60 / 4K144',price:'$539.00',cta:'View This Model',alt:'TESmart DKS403-M24 4x3 DisplayPort 1.4 triple monitor KVM hub',
+  img:'tesmart-dp-1-4-triple-8k-60hz-kvm-switch-hub-for-4-pcs-3-monitors-with-edid-audio-usb-lock-multi-switching-dp-1-4-triple-8k-60hz-kvm-switch-hub-for-4-pcs-3-monitors-with-edid-audio-usb-lock-multi-switching-1215158776.jpg?v=1767761588&width=1500',
+  f:['EDID emulation','Gigabit Ethernet sharing','USB 3.2 Gen 1, USB + audio focus lock']},
+ {id:'hks401-m24',n:'4-Port 8K60 HDMI 2.1 KVM with Network Switch & USB 3.2 Hub',pcs:4,mon:1,out:'8K60 / 4K144',price:'$389.00',cta:'Check Product Details',alt:'TESmart HKS401-M24 4-port 8K60 HDMI 2.1 KVM switch',
+  img:'tesmart-hks401-m24-usbk-4-port-8k60-hdmi-2-1-kvm-switch-with-built-in-network-switch-usb-3-2-hub-gigabit-lan-rgb-light-bar-remote-4-pcs-1-monitor-10652805092048-4-port-8k60-hdmi-2-1-kvm-switch-w-built-in-network-gigabit-lan-usb-3-1190821016.jpg?v=1758349383&width=1600',
+  f:['HDMI 2.1, HDR, VRR, EDID','Gigabit Ethernet sharing','USB 3.2 hub, RGB light bar, remote']},
+ {id:'tks202-x4',n:'2×2 KVM for Apple Studio Displays | Dual 5K120/6K60, Thunderbolt 4 Compatible',pcs:2,mon:2,tb:1,out:'5K120 / 6K60',price:'$799.00',cta:'Explore This Product',alt:'TESmart TKS202-X4 2x2 Thunderbolt 4 compatible KVM for Apple Studio Display',
+  img:'tesmart-tks202-x4-usbk-kvm-switch-2-port-dual-monitor-kvm-for-apple-studio-display-up-to-5k-60hz-compatible-with-thunderbolt-4-devices-10617230232490-2-port-dual-monitor-kvm-for-apple-studio-display-up-to-5k-60hz-compatible-with-1248446861.jpg?v=1783673530&width=1500',
+  f:['Intel JHL8440 Thunderbolt controller','2 × 60W laptop charging','Independent Gigabit LAN']}
+];
+function url(p){return BASE+p.id+AFF;}
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+
+/* cards + table */
+var cards='', rows='';
+P.forEach(function(p){
+  var setup=p.pcs+' PCs · '+p.mon+' monitor'+(p.mon>1?'s':'')+(p.tb?' · Thunderbolt':'');
+  cards+='<article class="card flex flex-col bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden"><img loading="lazy" width="600" height="400" src="'+IMG+p.img+'" alt="'+p.alt+'" class="w-full h-52 object-contain bg-white p-3"><div class="p-5 flex flex-col flex-1"><p class="text-xs font-semibold text-orange-600 uppercase">'+setup+'</p><h3 class="font-bold mt-1">'+esc(p.n)+'</h3><ul class="text-sm text-slate-600 mt-3 space-y-1 list-disc list-inside">'+p.f.map(function(x){return '<li>'+esc(x)+'</li>';}).join('')+'</ul><p class="mt-4 text-xl font-extrabold">'+p.price+' <span class="text-xs font-normal text-slate-500">listed price</span></p><a href="'+url(p)+'" target="_blank" rel="noopener noreferrer sponsored" data-cta="card_'+p.id.replace(/-/g,'_')+'" class="cta block text-center rounded-lg bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-3 mt-4">'+p.cta+'</a></div></article>';
+  rows+='<tr><td class="p-3 font-semibold">'+p.id.toUpperCase()+'</td><td class="p-3">'+setup+'</td><td class="p-3">'+p.out+'</td><td class="p-3 text-slate-600">'+p.f.map(esc).join('; ')+'</td><td class="p-3 font-semibold">'+p.price+'</td><td class="p-3"><a href="'+url(p)+'" target="_blank" rel="noopener noreferrer sponsored" data-cta="table_'+p.id.replace(/-/g,'_')+'" class="cta text-orange-600 underline whitespace-nowrap">View model</a></td></tr>';
+});
+document.getElementById('cards').innerHTML=cards;
+document.getElementById('tbody').innerHTML=rows;
+
+/* FAQ */
+var FAQ=[
+ ['Is PrimeGearLab the official TESmart store?','No. PrimeGearLab is an independent affiliate publisher. TESmart is the merchant and brand owner. When you click a button on this page you go to tesmart.com, where TESmart handles orders, shipping, returns and support.'],
+ ['How does PrimeGearLab make money?','We may receive a commission if you make a purchase through links on this page, at no extra cost to you. See the Affiliate Disclosure on this page.'],
+ ['What is a KVM switch?','KVM stands for keyboard, video and mouse. A KVM switch lets several computers share one keyboard, mouse and set of monitors.'],
+ ['What does EDID emulation do?','EDID is the information a monitor shares with a computer about its supported resolutions. A KVM with EDID emulation presents this information to each computer continuously, which is meant to help keep your display setup steadier when you switch. Results can vary by setup, so check TESmart\'s product details.'],
+ ['Which model should I pick?','Start with how many computers and monitors you have, then match your ports and target resolution. Use the setup finder on this page or TESmart\'s own KVM finder. For Thunderbolt and Apple Studio Display setups, look at the Thunderbolt 4 compatible model.'],
+ ['Will it work with my computers and monitors?','Compatibility depends on your devices, cables and ports. TESmart states that its team can help verify compatibility if you send your computer and monitor models, so it is worth checking before you order.'],
+ ['Are the prices on this page final?','No. Prices are those listed on tesmart.com on October 5, 2026. TESmart may change prices, promotions, shipping and availability at any time, so confirm on the product page before buying.'],
+ ['Who handles shipping, returns and warranty?','TESmart does. Read its shipping, refund and warranty terms on tesmart.com. PrimeGearLab does not sell, ship or support products, and has not hands-on tested them.']
+];
+var fh=''; FAQ.forEach(function(q){fh+='<div class="faq-item bg-slate-50 rounded-xl border border-slate-200"><button type="button" class="faq-btn w-full flex justify-between items-center text-left px-5 py-4 font-semibold" aria-expanded="false"><span>'+esc(q[0])+'</span><span class="faq-icon text-orange-500 text-xl ml-3 shrink-0">+</span></button><div class="faq-panel"><p class="px-5 pb-4 text-sm text-slate-600">'+esc(q[1])+'</p></div></div>';});
+document.getElementById('faqList').innerHTML=fh;
+document.querySelectorAll('.faq-btn').forEach(function(btn){btn.addEventListener('click',function(){
+  var open=btn.getAttribute('aria-expanded')==='true';
+  document.querySelectorAll('.faq-item').forEach(function(o){o.querySelector('.faq-btn').setAttribute('aria-expanded','false');o.querySelector('.faq-panel').style.maxHeight=null;o.querySelector('.faq-icon').textContent='+';});
+  if(!open){var it=btn.closest('.faq-item');btn.setAttribute('aria-expanded','true');it.querySelector('.faq-panel').style.maxHeight=it.querySelector('.faq-panel').scrollHeight+'px';it.querySelector('.faq-icon').textContent='\u2212';}
+});});
+/* FAQPage JSON-LD built from the visible FAQ text */
+var ld=document.createElement('script');ld.type='application/ld+json';
+ld.text=JSON.stringify({'@context':'https://schema.org','@type':'FAQPage','mainEntity':FAQ.map(function(q){return {'@type':'Question','name':q[0],'acceptedAnswer':{'@type':'Answer','text':q[1]}};})});
+document.head.appendChild(ld);
+
+/* Setup finder */
+var sel={};
+function finder(){
+  var out=document.getElementById('finderResult');
+  if(!sel.pcs||!sel.mon){return;}
+  var m=null;
+  if(sel.tb==='yes'){m=P[5];}
+  else{m=P.filter(function(p){return !p.tb&&p.pcs==sel.pcs&&p.mon==sel.mon;})[0];}
+  if(m){out.innerHTML='<p class="text-white font-bold">Match: '+esc(m.n)+'</p><p class="mt-1">'+m.out+' max output · listed at '+m.price+'</p><a href="'+url(m)+'" target="_blank" rel="noopener noreferrer sponsored" data-cta="finder_'+m.id.replace(/-/g,'_')+'" class="cta inline-block mt-3 rounded-lg bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-2.5">View This Model</a>';}
+  else{out.innerHTML='<p class="text-white font-bold">No listed match on this page for '+sel.pcs+' computers and '+sel.mon+' monitor'+(sel.mon>1?'s':'')+'.</p><p class="mt-1">TESmart\'s lineup is larger than the models shown here.</p><a href="https://www.tesmart.com/pages/explore-our-kvm-switch-lineup'+AFF+'" target="_blank" rel="noopener noreferrer sponsored" data-cta="finder_lineup" class="cta inline-block mt-3 rounded-lg bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-2.5">View Available Options</a>';}
+  bindCta(out);
+}
+document.querySelectorAll('[data-group]').forEach(function(g){g.querySelectorAll('.opt').forEach(function(b){b.addEventListener('click',function(){
+  g.querySelectorAll('.opt').forEach(function(x){x.classList.remove('active');});b.classList.add('active');sel[g.dataset.group]=b.dataset.v;finder();});});});
+
+/* Mobile menu */
+var mb=document.getElementById('menuBtn'),mn=document.getElementById('mobileNav');
+mb.addEventListener('click',function(){var o=mn.classList.toggle('hidden');mb.setAttribute('aria-expanded',String(!o));});
+mn.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mn.classList.add('hidden');mb.setAttribute('aria-expanded','false');});});
+
+/* Hide sticky CTA when legal/footer is in view */
+if('IntersectionObserver' in window){
+  var st=document.getElementById('sticky'),vis={};
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){vis[e.target.id]=e.isIntersecting;});st.style.transform=(vis.legal||vis.footer)?'translateY(100%)':'none';});
+  io.observe(document.getElementById('legal'));io.observe(document.getElementById('footer'));
+}
+
+/* Optional tracking (only if IDs are set) */
+(function(){
+  var ids=[CONFIG.GA4_ID,CONFIG.GOOGLE_ADS_ID].filter(Boolean);
+  window.dataLayer=window.dataLayer||[];
+  if(ids.length){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ids[0];document.head.appendChild(s);
+    window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());ids.forEach(function(i){gtag('config',i);});}
+  if(CONFIG.META_PIXEL_ID){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init',CONFIG.META_PIXEL_ID);fbq('track','PageView');}
+})();
+
+/* CTA click event + optional UTM forwarding */
+function bindCta(root){(root||document).querySelectorAll('a.cta').forEach(function(a){
+  if(a.dataset.bound)return;a.dataset.bound='1';
+  if(CONFIG.FORWARD_UTM&&location.search){try{var u=new URL(a.href),cur=new URLSearchParams(location.search);cur.forEach(function(v,k){if(k.indexOf('utm_')===0&&!u.searchParams.has(k))u.searchParams.set(k,v);});a.href=u.toString();}catch(e){}}
+  a.addEventListener('click',function(){try{
+    var d={event:'affiliate_cta_click',cta_id:a.dataset.cta,destination_url:a.href};
+    window.dataLayer=window.dataLayer||[];window.dataLayer.push(d);
+    if(window.gtag&&(CONFIG.GA4_ID||CONFIG.GOOGLE_ADS_ID))gtag('event','affiliate_cta_click',{cta_id:d.cta_id,destination_url:d.destination_url});
+    if(window.fbq&&CONFIG.META_PIXEL_ID)fbq('trackCustom','AffiliateCtaClick',{cta_id:d.cta_id});
+  }catch(e){}});
+});}
+bindCta();
+</script>
+</body>
+</html>
